@@ -1,0 +1,45 @@
+GET http://localhost:3333/filmes
+
+###
+
+GET http://localhost:3333/filmes/1
+
+###
+
+POST http://localhost:3333/filmes
+Content-Type: application/json
+
+{
+    "title": "Thor",
+    "genre": "Ação",
+    "duration": 126,
+    "age_rating": "12 anos"
+}
+
+###
+
+POST http://localhost:3333/filmes
+Content-Type: application/json
+
+{
+    "title": "O Poderoso Chefão",
+    "genre": "Drama",
+    "duration": 175,
+    "age_rating": "16 anos"
+}
+
+###
+
+PUT http://localhost:3333/filmes/1
+Content-Type: application/json
+
+{
+    "title": "Vingadores: Ultimato",
+    "genre": "Ação",
+    "duration": 181,
+    "age_rating": "12 anos"
+}
+
+###
+
+DELETE http://localhost:3333/filmes/17
