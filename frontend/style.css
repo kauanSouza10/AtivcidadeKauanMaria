@@ -1,0 +1,12 @@
+.filmes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+div {
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+}

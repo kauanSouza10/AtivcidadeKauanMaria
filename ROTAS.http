@@ -1,4 +1,4 @@
-GET http://localhost:3333/filmes
+GET http://localhost:3333/all-filmes
 
 ###
 
@@ -6,7 +6,7 @@ GET http://localhost:3333/filmes/1
 
 ###
 
-POST http://localhost:3333/filmes
+POST http://localhost:3333/create-filme
 Content-Type: application/json
 
 {
@@ -18,7 +18,7 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:3333/filmes
+POST http://localhost:3333/create-filme
 Content-Type: application/json
 
 {
@@ -30,7 +30,7 @@ Content-Type: application/json
 
 ###
 
-PUT http://localhost:3333/filmes/1
+PUT http://localhost:3333/update-filme/1
 Content-Type: application/json
 
 {
@@ -42,4 +42,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/filmes/17
+DELETE http://localhost:3333/delete-filme/17
