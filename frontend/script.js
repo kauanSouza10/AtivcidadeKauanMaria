@@ -1,5 +1,5 @@
 async function buscarFilmes() {
-    const resposta = await fetch("https://ativcidade-kauan-maria.vercel.app/all-filmes");
+    const resposta = await fetch("https://ativcidade-kauan-maria-j56l.vercel.app/all-filmes");
 
     const filmes = await resposta.json();
 
