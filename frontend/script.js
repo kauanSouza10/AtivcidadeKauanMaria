@@ -1,7 +1,8 @@
 async function buscarFilmes() {
-    // através do acesso a rota GET, trazer os filmes e mostrar na tela
-    const resposta = await fetch("https://ativcidade-kauan-maria.vercel.app/");
+    const resposta = await fetch("https://ativcidade-kauan-maria.vercel.app/all-filmes");
+
     const filmes = await resposta.json();
+
     const sectionFilmes = document.querySelector(".filmes");
 
     filmes.forEach((filme) => {
