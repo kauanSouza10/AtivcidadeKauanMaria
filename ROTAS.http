@@ -22,10 +22,10 @@ POST http://localhost:3333/create-filme
 Content-Type: application/json
 
 {
-    "title": "O Poderoso Chefão",
-    "genre": "Drama",
+    "title": "A Fantástica Fábrica de Chocolate",
+    "genre": "Animação",
     "duration": 175,
-    "age_rating": "16 anos"
+    "age_rating": "8 anos"
 }
 
 ###
@@ -42,4 +42,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/delete-filme/17
+DELETE http://localhost:3333/delete-filme/16
